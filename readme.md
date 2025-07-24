@@ -13,7 +13,7 @@ A simple and powerful AI writing assistant built with Gradio and Hugging Face mo
 
 1. Clone the repository:
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/MahmoudAbuAwd/WriteWiseAI
 cd WriteWiseAI
 ```
 
@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 3. Run the application:
 ```bash
-python app.py
+python Gradio-App/app.py
 ```
 
 ## Usage
