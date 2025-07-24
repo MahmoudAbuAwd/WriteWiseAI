@@ -180,11 +180,19 @@ Our carefully selected models power different aspects of WriteWiseAI:
 
 ```
 WriteWiseAI/
-├── 📁 Gradio-App/
-│   ├── app.py                 # Main application file
-│   └── requirements.txt       # Python dependencies
-├── 📄 README.md              # Project documentation
-└── 📄 LICENSE                # MIT License
+├── Gradio_App/
+│   └── app.py                    # Main entry point for the Gradio UI
+│
+├── models/
+│   ├── generate.py               # Logic for text generation
+│   ├── grammar.py                # Grammar correction module
+│   └── style.py                  # Optional: Text styling or enhancement logic
+│
+├── .gitignore                  # Git ignore file
+├── .python-version             # Python version for environment consistency
+├── readme.md                   # Project overview and documentation
+└── requirements.txt            # List of dependencies
+└── LICENCE                     # MIT License
 ```
 
 ---
