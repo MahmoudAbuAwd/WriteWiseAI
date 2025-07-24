@@ -11,7 +11,7 @@
 
 *Transform your writing with the power of AI* ✨
 
-[🚀 Quick Start](#-quick-start) • [✨ Features](#-features) • [📖 Documentation](#-usage) • [🤝 Contributing](#-contributing)
+[🚀 Quick Start](#-quick-start) • [✨ Features](#-features) • [📖 Documentation](#-usage)
 
 </div>
 
@@ -189,22 +189,6 @@ WriteWiseAI/
 
 ---
 
-## 🔧 Configuration
-
-### Environment Variables (Optional)
-```bash
-export HUGGINGFACE_TOKEN="your_token_here"  # For private models
-export GRADIO_SERVER_PORT=7860               # Custom port
-```
-
-### Custom Models
-You can easily swap models by modifying the model names in `app.py`:
-```python
-GRAMMAR_MODEL = "your-custom-grammar-model"
-STYLE_MODEL = "your-custom-style-model"
-GENERATION_MODEL = "your-custom-generation-model"
-```
-
 ---
 
 ## 🚀 Deployment
@@ -222,25 +206,6 @@ docker run -p 7860:7860 writewise-ai
 
 ### Hugging Face Spaces
 Deploy directly to Hugging Face Spaces for free hosting!
-
----
-
-## 🤝 Contributing
-
-We love contributions! Here's how you can help:
-
-1. **🍴 Fork** the repository
-2. **🌟 Create** a feature branch (`git checkout -b feature/amazing-feature`)
-3. **💾 Commit** your changes (`git commit -m 'Add amazing feature'`)
-4. **📤 Push** to the branch (`git push origin feature/amazing-feature`)
-5. **🔄 Open** a Pull Request
-
-### Areas where you can contribute:
-- 🐛 Bug fixes and improvements
-- ✨ New AI models integration
-- 🎨 UI/UX enhancements
-- 📚 Documentation improvements
-- 🧪 Testing and quality assurance
 
 ---
 
@@ -269,13 +234,9 @@ MIT License - Feel free to use, modify, and distribute! 🎉
 **Need help or have questions?**
 
 [![GitHub Issues](https://img.shields.io/badge/GitHub-Issues-red?style=flat-square&logo=github)](https://github.com/MahmoudAbuAwd/WriteWiseAI/issues)
-[![Email](https://img.shields.io/badge/Email-Contact-blue?style=flat-square&logo=gmail)](mailto:your-email@example.com)
+[![Email](https://img.shields.io/badge/Email-Contact-blue?style=flat-square&logo=gmail)](mailto:mahmoodabuawad08@example.com)
 
 ---
-
-**⭐ Star this repository if WriteWiseAI helped you!**
-
-[![Star History Chart](https://api.star-history.com/svg?repos=MahmoudAbuAwd/WriteWiseAI&type=Date)](https://star-history.com/#MahmoudAbuAwd/WriteWiseAI&Date)
 
 Made with ❤️ by [MahmoudAbuAwd](https://github.com/MahmoudAbuAwd)
 
