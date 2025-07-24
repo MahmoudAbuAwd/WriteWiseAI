@@ -1,4 +1,3 @@
-# README.md
 # 🧠 WriteWiseAI - AI Writing Assistant
 
 A simple and powerful AI writing assistant built with Gradio and Hugging Face models.
